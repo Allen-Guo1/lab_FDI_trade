@@ -381,3 +381,11 @@ animated_plot <- p +
 anim <- animate(animated_plot, nframes = 100, fps = 10, width = 800, height = 600, start_pause=10, end_pause = 10, renderer = gifski_renderer())
 anim_save("top10_countries_over_time.gif", animation = anim)
 
+
+## Part 6: Last lab assignment, export destinations ----
+
+# The import example above uses the Census imports NAICS endpoint and
+# GEN_VAL_YR. For the assignment, I use the exports NAICS endpoint and
+# ALL_VAL_YR to rank U.S. export destinations for 2015 and 2025.
+# See us_exports_top10_assignment.R for the stand-alone script that creates
+# figures/us_exports_top10_2015_2025.png.
